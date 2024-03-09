@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPortfilio</title>
+        <link href = "Style.css" rel = "stylesheet">
+        <script src="https://kit.fontawesome.com/1f7a4da402.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+        <script href = "hed.js"></script>
+        <style>
+            :root {
+            --oragneColor:#c5c5c5;
+            --darkOragneColor:#181717d4;
+            --shadedOrange:#1f1f1f21;
+            --blueImge: sepia(50%) hue-rotate(50deg) saturate(300%);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="colorChanger" style="  display: flex;
+            align-items: center;
+            justify-content: center;">
+                <div id = "smola" >
+                    <i class="fa-solid fa-gear" id = "mysamola"></i>
+                </div>
+                <div class="color" id = "red"></div>
+                <div class="color" id = "blue"></div>
+                <div class="color" id = "green"></div>
+                <div class="color" id = "yellow"></div>
+                <div class="color" id = "Orange"></div>
+            </div>    
+            <div style="height: 60px;"></div>
+            <nav>
+                <div class = "logo" style="display: inline-block;"><label>My Portfolio</label></div>
+
+                    <input type="checkbox" id = "chk">
+                    <label for = "chk" class = "typ"><i class="gg-menu"></i></label>
+                <div class = "navItems">
+                    <div class ="myNavitems"><a href = "#">Home</a></div>
+                    <div class ="myNavitems"><a href = "#services">Service</a></div>
+                    <div class ="myNavitems"><a href = "#about">About</a></div>
+                    <div class ="myNavitems"><a href = "#WhatEvents">News</a></div>
+                    <div class ="myNavitems" id = "last"><a href = "#ContactUs">Contact</a></div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class ="ABOUTME" id = "about">
+                <div class="img"><img src = "images/Abt.jpg"></div>
+                <div class="PhotoBack">
+                    <h1 style="margin-top: 5px; font-size: 200%;">About Me</h1>
+                    <hr width="300px" style="border-radius: 2px;margin-top:5px;">
+                    <p>Passionate computer engineering student with strong programming skills, teaching experience, and a USAID scholarship student. Dedicated to becoming a visionary leader, leveraging tech expertise and soft skills to drive innovation and success in the field.</p>
+                </div>
+            </section>
+            <section class="Porjects">
+                <h1>My Projects</h1>
+                <div class = "yarbN5ls">
+                     
+                    <div class = "ProjCont">
+                        <div class = "img2 img-1">
+ 
+                                <a><img src = "images/Proj/proj1.png"></a>
+
+                        </div>
+                        <div class = "img2 img-2">
+                                <img src = "images/Proj/proj2.png">
+
+                        </div>
+                        <div class = "img2 img-3">
+
+                                <img src = "images/Proj/proj1.png">
+                            
+                        </div>
+                        <div class = "img2 img-4">
+                            
+                                <img src = "images/Proj/proj2.png">
+                           
+                        </div>
+                        <div class = "img2 img-5">
+                           
+                                <img src = "images/Proj/proj1.png">
+                            
+                        </div>
+                        <div class = "img2 img-6">
+                            
+                                <img src = "images/Proj/proj2.png">
+                            
+                        </div>
+                        <div class = "img2 img-">
+                           
+                                <img src = "images/Proj/proj1.png">
+                            
+                        </div>
+                        <div class = "img2 img-">
+                            
+                                <img src = "images/Proj/proj2.png">
+                        </div>
+                    </div>
+                    <!-- <i class="fa-solid fa-arrow-right" id = "right"></i> -->
+                </div>
+
+            </section>
+            <section class="ContactUs" id = "ContactUs">
+
+                <h1>Contact Us</h1>
+                <form>
+                    <div>
+                    <label for = "Name">Name</label>
+                    <input type="text" id = "Name">
+                    </div>
+                    <div>
+                    <label for = "Nm">Number</label>
+                    <input type="tel" id = "Nm">
+                    </div>
+                    <div>
+                    <label for = "mail" > Email</label>
+                    <input type="email">
+                    </div>
+                    <div>
+                    <label for = "subject">Subject</label>
+                    <input type="text" id = "subject">
+                    </div>
+                </form>
+                <br><br>
+                <br><br>
+                <button style="width: 150px; height: 40px">Sumbit</button>
+        </section>
+        </main>
+
+        <div class="footer">
+            <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            
+            <div class="row">
+            <ul>
+            <li><a href="#ContactUs">Contact us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Career</a></li>
+            </ul>
+            </div>
+            
+            <div class="row">
+                Copyright © 
+            </div>
+            </div>
+            </footer>
+            <script src = "script.js"></script>
+    </body>
+</html>
